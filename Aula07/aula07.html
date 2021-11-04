@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+ <html>
+    <body>
+    
+    <h2>Formulário pessoal</h2>
+    
+    <form action="/action_page.php">
+      <label for="fname">Escreva seu nome:</label><br>
+      <input type="text" id="fname" name="fname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    
+
+    <h2>Opção pessoal</h2>
+
+<p>Escolha o país que você deseja morar:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Escolha o país:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Brasil</option>
+    <option value="saab">Inglaterra</option>
+    <option value="fiat">Irlanda</option>
+    <option value="audi">Espanha</option>
+    <option value="audi">Noruega</option>
+    <input type="submit" value="Submit">
+</form>
+
+    <h2>Escolha o país que você deseja morar:</h2>
+
+    <form action="/action_page.php">
+      <label for="cars">Escolha o país:</label>
+      <select id="cars" name="cars" size="3">
+        <option value="Brasil">Brasil</option>
+        <option value="Inglaterra">Inglaterra</option>
+        <option value="Irlanda">Irlanda</option>
+        <option value="Espanha">Espanha</option>
+        <option value="Noruega">Noruega</option>
+      </select><br><br>
+      <input type="submit">
+      
+    </form>
+    
+    <p>Esolha d2 países</p>
+
+<form action="/action_page.php">
+  <label for="cars">Esolha o país:</label>
+  <select id="cars" name="cars" size="4" multiple>
+    <option value="Brasil">Brasil</option>
+    <option value="Inglaterra">Ingraterra</option>
+    <option value="Irlanda">Irlanda</option>
+    <option value="Espanha">Espanha</option>
+    <option value="Noruega">Noruega</option>
+  </select><br><br>
+  <input type="submit">
+</form>
+
+<h2>Na área de texto</h2>
+<p>Escreva sobre o país esolhido na questão anterior.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="15" cols="15">Londres é a capital da Inglaterra.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+
+<h2>The button Element</h2>
+
+<button type="button" onclick="alert('Bem vindo!')">Clicar!</button>
+
+
+
+<p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+
+
+<h2>Dados pessoais</h2>
+
+<p>Escreva seu nome e sobrenome.</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Dado pessoal:</legend>
+    <label for="fname">Primeiro nome:</label><br>
+    <input type="text" id="fname" name="fname" value="Rodney"><br>
+    <label for="lname">Sobrenome:</label><br>
+    <input type="text" id="lname" name="lname" value="Araujo"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+  
+    </body>
+</html>
+    
